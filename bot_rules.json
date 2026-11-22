@@ -1,0 +1,222 @@
+{
+  "botSettings": {
+    "enabled": true,
+    "delaySeconds": 2,
+    "sendReadReceipt": true,
+    "sendTypingPresence": true,
+    "customGreeting": ""
+  },
+  "rules": [
+    {
+      "id": "rule_jharkhand",
+      "title": "झारखण्ड जिलेवार नौकरियां (Jharkhand District Jobs)",
+      "category": "candidate",
+      "keywords": [
+        "jharkhand",
+        "ranchi",
+        "dhanbad",
+        "jamshedpur",
+        "bokaro",
+        "deoghar",
+        "dumka",
+        "hazaribagh",
+        "giridih",
+        "ramgarh",
+        "palamu",
+        "chaibasa",
+        "jharkhand job"
+      ],
+      "replyText": "नमस्ते *{name}* जी! 🌲\n\n*झारखण्ड जिला रोजगार एवं सरकारी/निजी नौकरियां:*\n\nझारखण्ड के सभी 24 जिलों में 8वीं, 10वीं, 12वीं, आईटीआई व ग्रेजुएट पास युवाओं के लिए हजारों रिक्तियां उपलब्ध हैं:\n\n📍 *प्रमुख जिले व नौकरियां:*\n• राँची (Ranchi Jobs)\n• धनबाद (Dhanbad Jobs)\n• जमशेदपुर (Jamshedpur Jobs)\n• बोकारो (Bokaro Jobs)\n• देवघर, दुमका व हजारीबाग\n\n🔍 *झारखण्ड की सभी नौकरियां देखें व आवेदन करें:*\n👉 {baseUrl}/jobs\n\n📝 *नया उम्मीदवार मुफ़्त पंजीकरण:*\n👉 {baseUrl}/register/seeker\n\nधन्यवाद,\n*जिला जॉब्स झारखण्ड टीम*",
+      "enabled": true,
+      "isSystem": true
+    },
+    {
+      "id": "rule_fees",
+      "title": "जॉब आवेदन फीस व नि:शुल्क नीति (Job Fees Policy)",
+      "category": "candidate",
+      "keywords": [
+        "fee",
+        "fees",
+        "paisa",
+        "charge",
+        "cost",
+        "free",
+        "kharcha",
+        "charges",
+        "registration fee"
+      ],
+      "replyText": "नमस्ते *{name}*! 🙏\n\n*क्या जिला जॉब्स पर कोई फीस लगती है?*\n\nउम्मीदवारों के लिए जिला जॉब्स पर सभी नौकरियां देखना और आवेदन करना *100% बिल्कुल मुफ़्त (Free)* है! \n\n⚠️ *महत्वपूर्ण चेतावनी:* किसी भी व्यक्ति या कंपनी को नौकरी या इंटरव्यू के नाम पर कोई भी पैसा न दें। पैसे मांगने वाले किसी भी व्यक्ति की पोर्टल पर तुरंत रिपोर्ट करें।\n\n🔍 *मुफ़्त नौकरियां देखें:*\n👉 {baseUrl}/jobs\n\nधन्यवाद,\n*जिला जॉब्स सुरक्षा टीम*",
+      "enabled": true,
+      "isSystem": true
+    },
+    {
+      "id": "rule_fraud",
+      "title": "फर्जी जॉब व फ्रॉड रिपोर्टिंग (Fake Job & Fraud Auto-Freeze)",
+      "category": "safety",
+      "keywords": [
+        "fraud",
+        "scam",
+        "fake",
+        "report",
+        "shikayat",
+        "dhokha",
+        "paisa maang",
+        "fake job"
+      ],
+      "replyText": "नमस्ते *{name}*! 🛡️\n\n*जिला जॉब्स फ्रॉड एवं सुरक्षा नीति:*\n\nजिला जॉब्स पर फर्जी नौकरियों और धोखाधड़ी के खिलाफ *जीरो टॉलरेंस* नीति है:\n• यदि कोई नियोक्ता पैसे मांगता है या संदिग्ध लगता है, तो जॉब पेज पर जाकर *'Report Job / Scam Review'* दर्ज करें।\n• यदि किसी बिज़नेस पर 5 उम्मीदवार फ्रॉड रिपोर्ट करते हैं, तो उस कंपनी का पोर्टल व सभी रिक्तियां *स्वतः तुरंत फ्रीज (Auto-Freeze)* हो जाती हैं।\n• सुपर एडमिन द्वारा गहन जांच के बाद ही खाता बहाल हो सकता है।\n\n🚨 *तुरंत रिपोर्ट करें:*\n👉 {baseUrl}/report-job\n\nधन्यवाद,\n*जिला जॉब्स एंटी-फ्रॉड सेल*",
+      "enabled": true,
+      "isSystem": true
+    },
+    {
+      "id": "rule_plans",
+      "title": "नियोक्ता प्लान, पैकेज व UPI UTR सक्रियता (Employer Plans & UPI QR)",
+      "category": "payment",
+      "keywords": [
+        "plan",
+        "plans",
+        "package",
+        "pricing",
+        "silver",
+        "gold",
+        "upi",
+        "qr",
+        "utr",
+        "razorpay",
+        "payment",
+        "activate",
+        "quota",
+        "limit"
+      ],
+      "replyText": "नमस्ते *{name}* जी! 💳\n\n*जिला जॉब्स नियोक्ता योजना एवं भुगतान जानकारी:*\n\n📦 *योजनाएं एवं कोटा:*\n• *Free Starter Plan:* 3 नौकरियां लाइफटाइम मुफ़्त (₹0)\n• *Silver Package:* 15-20 नौकरियां कोटा (₹899)\n• *Gold Package:* 50-60 नौकरियां कोटा + टॉप फीचर्ड (₹2299)\n\n📲 *भुगतान एवं प्लान सक्रियता:*\n1️⃣ *Direct Simple UPI QR:* QR कोड स्कैन कर पे करें और 12-अंकीय UTR नंबर दर्ज करें। एडमिन द्वारा सत्यापन के बाद *24 घंटे के अंदर* आपका प्लान सक्रिय कर दिया जाएगा।\n2️⃣ *Razorpay Gateway:* ऑनलाइन पेमेंट करने पर प्लान तुरंत ऑटोमैटिक सक्रिय हो जाता है।\n\n👉 *योजनाएं देखें व अपग्रेड करें:*\n{baseUrl}/employer/plans\n\nधन्यवाद,\n*जिला जॉब्स फाइनेंस सपोर्ट*",
+      "enabled": true,
+      "isSystem": true
+    },
+    {
+      "id": "rule_urgent_hiring",
+      "title": "तत्काल भर्ती बैज (Urgent Hiring Feature)",
+      "category": "employer",
+      "keywords": [
+        "urgent",
+        "tatkal",
+        "fast hire",
+        "jaldi",
+        "turant staff",
+        "urgent hiring"
+      ],
+      "replyText": "नमस्ते *{name}* जी! ⚡\n\n*तत्काल आवश्यकता (Urgent Hiring) क्या है?*\n\nयदि आपको 24 से 48 घंटे में तेजी से स्थानीय स्टाफ चाहिए:\n• जॉब पोस्ट करते समय *'Urgent Hiring'* विकल्प चुनें।\n• आपकी वैकेंसी पर चमकीला लाल बैज लग जाएगा।\n• जिले के सभी संबंधित उम्मीदवारों को व्हाट्सएप व ईमेल पर त्वरित अलर्ट भेजा जाता है।\n\n📢 *तत्काल वैकेंसी पोस्ट करें:*\n👉 {baseUrl}/employer/jobs/create\n\nधन्यवाद,\n*जिला जॉब्स हायरिंग टीम*",
+      "enabled": true,
+      "isSystem": true
+    },
+    {
+      "id": "rule_verification",
+      "title": "कंपनी व बिज़नेस प्रोफाइल वेरिफिकेशन (Employer Verification)",
+      "category": "employer",
+      "keywords": [
+        "verify",
+        "verification",
+        "gst",
+        "shop act",
+        "udyam",
+        "document",
+        "satypan",
+        "business verify"
+      ],
+      "replyText": "नमस्ते *{name}* जी! 🏢\n\n*बिज़नेस वेरिफिकेशन (Employer Verification) कैसे करें?*\n\nउम्मीदवारों की सुरक्षा हेतु केवल सत्यापित बिज़नेस ही जॉब पोस्ट कर सकते हैं:\n1️⃣ लॉगिन कर *Company Profile* में जाएं।\n2️⃣ GST नंबर, उद्योग आधार, या शॉप एक्ट लाइसेंस नंबर दर्ज करें।\n3️⃣ दुकान/ऑफिस के कार्यस्थल की फोटो अपलोड करें।\n4️⃣ एडमिन द्वारा 24 घंटे में बिज़नेस को वेरीफाई कर दिया जाएगा।\n\n👉 *कंपनी प्रोफाइल वेरीफाई करें:*\n{baseUrl}/employer/company\n\nधन्यवाद,\n*जिला जॉब्स वेरिफिकेशन डेस्क*",
+      "enabled": true,
+      "isSystem": true
+    },
+    {
+      "id": "rule_interview",
+      "title": "इंटरव्यू व कार्यस्थल विजिट शेड्यूल (Interview & Visit Schedule)",
+      "category": "candidate",
+      "keywords": [
+        "interview",
+        "visit",
+        "date",
+        "samay",
+        "selection",
+        "call letter",
+        "visiting"
+      ],
+      "replyText": "नमस्ते *{name}*! 📅\n\n*इंटरव्यू एवं कार्यस्थल विजिट की जानकारी:*\n\nजब नियोक्ता आपके आवेदन को स्वीकार करते हैं, तो वे पोर्टल से आपको इंटरव्यू या कार्यस्थल विजिट की तिथि व समय निर्धारित करते हैं।\n• इसकी सूचना आपको ऐप नोटिफिकेशन, व्हाट्सएप और ईमेल पर तुरंत मिलती है।\n• आप अपने आवेदन की स्थिति यहाँ देख सकते हैं:\n👉 {baseUrl}/seeker/applications\n\nधन्यवाद,\n*जिला जॉब्स टीम*",
+      "enabled": true,
+      "isSystem": true
+    },
+    {
+      "id": "rule_jobs_apply",
+      "title": "नौकरी खोजना व आवेदन (Job Search & How to Apply)",
+      "category": "candidate",
+      "keywords": [
+        "job",
+        "vacancy",
+        "naukri",
+        "kam",
+        "kaam",
+        "apply",
+        "kaise apply",
+        "aavedan",
+        "apply now"
+      ],
+      "replyText": "नमस्ते *{name}* जी! 🙏\n\n*जिला जॉब्स (JilaJobs)* पोर्टल पर आपका स्वागत है।\n\nयहाँ आपके जिले, ब्लॉक व शहर के सत्यापित प्रतिष्ठानों में 100% नि:शुल्क नौकरियां उपलब्ध हैं:\n\n🔍 *उपलब्ध नौकरियां देखें व तुरंत आवेदन करें:*\n👉 {baseUrl}/jobs\n\n📝 *नया उम्मीदवार पंजीकरण (Candidate Registration):*\n👉 {baseUrl}/register/seeker\n\n📞 किसी भी सहायता हेतु हमारे हेल्पडेस्क पर संपर्क करें:\n📧 support@jilajobs.com\n📱 +{phone}\n\nधन्यवाद,\n*जिला जॉब्स टीम* (Official Support)",
+      "enabled": true,
+      "isSystem": true
+    },
+    {
+      "id": "rule_staff_hire",
+      "title": "स्टाफ भर्ती / नई रिक्ति पोस्ट (Employer Hiring Staff)",
+      "category": "employer",
+      "keywords": [
+        "hire",
+        "staff",
+        "worker",
+        "post",
+        "employer",
+        "company",
+        "recruitment",
+        "kisi ko kaam"
+      ],
+      "replyText": "नमस्ते *{name}* जी! 🏢\n\n*जिला जॉब्स (JilaJobs)* बिज़नेस सपोर्ट में आपका स्वागत है।\n\nक्या आप अपने बिज़नेस, दुकान, शोरूम या फैक्ट्री के लिए स्थानीय स्टाफ हायर करना चाहते हैं?\n\n📢 *सीधे नई रिक्ति पोस्ट करें (3 नौकरियां मुफ़्त):*\n👉 {baseUrl}/employer/jobs/create\n\n👥 *निकटतम योग्य उम्मीदवार खोजें:*\n👉 {baseUrl}/employer/dashboard\n\nहमारी टीम आपके बिज़नेस को 24 घंटे में सत्यापित कर देगी और स्थानीय उम्मीदवारों तक आपकी रिक्ति पहुंचाएगी।\n\nधन्यवाद,\n*जिला जॉब्स बिज़नेस सपोर्ट*",
+      "enabled": true,
+      "isSystem": true
+    },
+    {
+      "id": "rule_influencer",
+      "title": "सोशल मीडिया क्रिएटर व दुकान प्रचार (Influencer Promotion)",
+      "category": "creator",
+      "keywords": [
+        "creator",
+        "influencer",
+        "infulensher",
+        "parchar",
+        "promote",
+        "vlogger",
+        "reel",
+        "dukan parchar",
+        "video banwana"
+      ],
+      "replyText": "नमस्ते *{name}*! 🌟\n\n*जिला जॉब्स लोकल इनफ्लुएंसर व दुकान प्रचार सेवा:*\n\n1️⃣ *दुकानदार / शोरूम मालिक:*\nआप अपने जिले के लोकप्रिय इंस्टाग्राम, यूट्यूब और फेसबुक क्रिएटर्स के फॉलोअर्स और रेट कार्ड देखकर सीधे 'प्रचार आमंत्रण' भेज सकते हैं:\n👉 {baseUrl}/employer/influencers\n\n2️⃣ *सोशल मीडिया क्रिएटर्स (Vloggers / Influencers):*\nअपनी प्रोफाइल बनाएं, फॉलोअर्स व रील रेट दर्ज करें और दुकानदारों से प्रमोशन ऑफर पाएं:\n👉 {baseUrl}/register/creator\n\nधन्यवाद,\n*जिला जॉब्स क्रिएटर हब*",
+      "enabled": true,
+      "isSystem": true
+    },
+    {
+      "id": "rule_helpline",
+      "title": "कस्टमर केयर हेल्पलाइन व संपर्क (Helpdesk & Support)",
+      "category": "general",
+      "keywords": [
+        "contact",
+        "helpline",
+        "support",
+        "phone",
+        "number",
+        "care",
+        "customer care",
+        "email",
+        "madad",
+        "help"
+      ],
+      "replyText": "नमस्ते *{name}*! 📞\n\n*जिला जॉब्स आधिकारिक सहायता केंद्र:*\n\n📱 *व्हाट्सएप हेल्पलाइन:* +{phone}\n📧 *सपोर्ट ईमेल:* support@jilajobs.com / jilajobsadmin@gmail.com\n⏰ *सहायता समय:* सुबह 9:00 बजे से शाम 7:00 बजे तक (सोमवार से शनिवार)\n\n🌐 *वेबसाइट संपर्क पृष्ठ:*\n👉 {baseUrl}/contact\n\nधन्यवाद,\n*जिला जॉब्स कस्टमर केयर*",
+      "enabled": true,
+      "isSystem": true
+    }
+  ]
+}

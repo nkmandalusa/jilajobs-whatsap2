@@ -1,0 +1,5 @@
+{
+  "localApiUrl": "http://127.0.0.1/job/api/whatsapp.php",
+  "onlineApiUrl": "https://jilajobs.gt.tc/api/whatsapp.php",
+  "secretToken": "jilajobs_wa_bridge_secret"
+}

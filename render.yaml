@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: jilajobs-whatsapp-gateway
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node index.js
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: ONLINE_API_URL
+        value: https://jilajobs.gt.tc/api/whatsapp.php
